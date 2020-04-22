@@ -84,7 +84,7 @@ public class Robot : Agent
         //提供開發者控制的方式
         var action = new float[2];
         action[0] = Input.GetAxis("Horizontal");
-        action[1] = Input.GetAxis("vertical");
+        action[1] = Input.GetAxis("Vertical");
         return action;
     }
 }
