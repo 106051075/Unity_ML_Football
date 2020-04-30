@@ -37,7 +37,7 @@ public class Robot : Agent
         transform.position = posRobot;
         //隨機足球位置
         Vector3 posBall = new Vector3(Random.Range(-0.5f, 0.5f), 0.1f, Random.Range(1f, 1.5f));
-        transform.position = posBall;
+        rigBall.position = posBall;
 
         Ball.complete = false;
 

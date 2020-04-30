@@ -17,6 +17,7 @@ public class Ball : MonoBehaviour
         {
             //進入球門
             complete = true;
+
         }
     }
 }
